@@ -1,7 +1,7 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 interface ChangeStatsPayload {
-    statsType: string,
+    statsType: 'followers' | 'following',
     sum: number
 }
 export const statSlice = createSlice({

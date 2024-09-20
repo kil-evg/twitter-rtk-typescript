@@ -1,4 +1,4 @@
-import { combineSlices, configureStore } from "@reduxjs/toolkit"
+import { configureStore } from "@reduxjs/toolkit"
 import user from "../features/userSlice"
 import stats from "../features/statSlice"
 
